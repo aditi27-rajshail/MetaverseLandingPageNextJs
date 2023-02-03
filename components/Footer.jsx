@@ -1,9 +1,9 @@
-"use client";
+'use client';
 
-import { motion } from "framer-motion";
-import styles from "../styles";
-import { footerVariants } from "../utils/motion";
-import { socials } from "../constants";
+import { motion } from 'framer-motion';
+import styles from '../styles';
+import { footerVariants } from '../utils/motion';
+import { socials } from '../constants';
 
 const Footer = () => (
   <motion.footer
@@ -18,7 +18,7 @@ const Footer = () => (
     >
       <div className="flex items-center justify-between flex-wrap gap-8">
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
-          Enter the Metaverse{" "}
+          Enter the Metaverse{' '}
         </h4>
         <button
           type="button"
